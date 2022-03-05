@@ -1,0 +1,176 @@
+@media (min-width:720px){
+    #getAndroid{
+        display: none;
+    }
+    .main{
+        font-family: Helvetica, Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+        background: rgb(239, 238, 247);
+        color: #1c1e21;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo{
+        position: relative;
+        top: 3vw;
+        right: 2vw;
+        height: 7vw;
+    }
+    .fHalf1{
+        margin: 2vw;
+        width: 35vw;
+        position: relative;
+        bottom: 7vw;
+    }
+    .fHalf2{
+        margin: 2vw;
+        width: 25vw;
+    }
+    #logoDown{
+        letter-spacing: .5px;
+        text-align: left;
+        font-size: 1.8vw;
+    }
+    #forget{
+        font-size: 1.2vw;
+    }
+    form{
+        box-sizing: border-box;
+        padding: 1.2vw;
+        line-height: 3vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px #d8d8d8;
+        margin-bottom: 2vw;
+        border-radius: .5vw;
+    }
+    
+    input{
+        border: .5px solid rgb(212, 212, 212);
+        border-radius: 6px;
+        padding-left: .5vw;
+        font-size: 1vw;
+        margin-bottom: 1vw;
+    }
+    #userName{
+        width: 22vw;
+        height: 3vw;
+    }
+    #password{
+        width: 22vw;
+        height: 3vw;
+    }
+    #blue{
+        width: 22vw;
+        height: 3vw;
+        color: white;
+        background-color: #1877f2;
+        border: none;
+        border-radius: .4vw;
+        font-size: 20px;
+        margin-top: .8vw;
+    }
+    a{
+        text-decoration: none;
+        color: #1877f2;;
+    }
+    #green{
+        color: white;
+        background-color: #42b72a;
+        border-radius: .4vw;
+        border: none;
+        height: 3vw;
+        width: 15vw;
+        font-size: 17px;
+        margin-bottom: .8vw;
+    }
+    hr{
+        border: none;
+        height: 2px;
+        width: 22vw;
+        background-color: #dcdee0;
+    }
+}
+@media (max-width:720px){
+    body{
+        margin: 0px;
+    }
+    .main{
+        font-family: Helvetica, Arial, sans-serif;
+
+    }
+    #getAndroid{
+        padding: 2vw;
+        background-color: rgb(255, 242, 242);
+        display: flex;
+        align-items: center;
+        font-size: 4vw;
+    }
+    #phone{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        height: 10vw;
+    }
+    #logoDown{
+        display: none;
+    }
+    #logo{
+        width: 30vw;
+    }
+    .fHalf1{
+        display: flex;
+        justify-content: center;
+    }
+    .fHalf2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        font-size: 4vw;
+        width: 90vw;
+        height: 10vw;
+        border-radius: 1vw;border: #d8d8d8 2px solid;
+        margin: 1vw;
+    }
+    #blue{
+        width: 90vw;
+        height: 10vw;
+        color: white;
+        background-color: #1877f2;
+        border: none;
+        border-radius: 1vw;
+        font-size: 18px;
+        margin: 1vw;
+    }
+    a{
+        text-decoration: none;
+        color: #1877f2;;
+    }
+    #green{
+        color: white;
+        background-color: #42b72a;
+        border-radius: 1vw;
+        border: none;
+        height: 10vw;
+        width: 45vw;
+        font-size: 15px;
+        margin-bottom: 1vw;
+        margin-top: 10vw ;
+    }
+    #n{
+        display: none;
+    }
+
+}
